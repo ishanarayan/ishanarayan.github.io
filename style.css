@@ -12,10 +12,6 @@
     src: url('Playfair_144pt-Regular.woff');
 }
 
-/* * {
-    outline: 1px solid red;
-} */
-
 
 body{
     background-color: white;
@@ -37,7 +33,6 @@ div.largeText2{
 }
 div.mt11{
     margin-top: 11vw;
-    /* margin-left:5vw; */
 
 }
 
@@ -108,3 +103,4 @@ div.container {
     display: flex;
     flex-wrap:wrap;
 }
+
