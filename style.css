@@ -1,0 +1,110 @@
+/* fonts */
+@font-face {
+    font-family: 'Playfair';
+    src: url('Playfair-VariableFont_opsz\,wdth\,wght.woff');
+}
+@font-face {
+    font-family: 'Playfair SemiBold';
+    src: url('Playfair_144pt-SemiBold.woff');
+}
+@font-face {
+    font-family: 'Playfair Regular';
+    src: url('Playfair_144pt-Regular.woff');
+}
+
+/* * {
+    outline: 1px solid red;
+} */
+
+
+body{
+    background-color: white;
+    font-family: 'Playfair Regular';
+    margin:2vw; 
+    font-size:2.1vw;
+}
+
+img {
+    width: 100%;
+}
+
+div.largeText{
+    font-size: 7em;
+    font-family: 'Playfair SemiBold';
+}
+div.largeText2{
+    font-size: 15.2vw;
+}
+div.mt11{
+    margin-top: 11vw;
+    /* margin-left:5vw; */
+
+}
+
+div.smallText{
+    font-size:2vw;
+    margin-top:46px;
+}
+
+div.para{
+    font-size: 3em;
+    line-height: 0.7em;
+}
+
+div.mb330{
+    margin-bottom: 330px;
+}
+div.mb125{
+    margin-bottom: 125px;
+}
+div.mb80{
+    margin-bottom: 80px;
+}
+div.mlAuto{
+    margin-left: auto;
+}
+div.mrAuto{
+    margin-right:auto;
+}
+
+div.bgBlack{
+    background-color: black;
+}
+div.whiteText{
+    color: white;
+}
+div.align{
+    text-align: center;
+}
+div.paraSmall{
+    padding-left: 3vw;
+}
+/* 
+div.fontpara{
+
+} */
+/* layout */
+div.width33p{
+    width: calc(33% - 3vw); 
+}
+
+div.width66{
+    width:66%;
+}
+div.width70{
+    width:70%;
+}
+div.width100{
+    width:100%;
+}
+div.width90{
+    width:90%;
+}
+div.width60{
+    width:60%;
+}
+
+div.container {
+    display: flex;
+    flex-wrap:wrap;
+}
