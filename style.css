@@ -50,6 +50,10 @@ div.smallText{
 div.smallestText{
     font-size:1vw;
 }
+div.smallerText{
+    font-size:1.5vw;
+}
+
 
 div.frag{
     font-family: 'frangmentMono';
@@ -77,6 +81,12 @@ div.paraSmall{
 div.mt11{
     margin-top: 11vw;
 }
+div.mt15{
+    margin-top: 15vw;
+}
+div.mt2{
+    margin-top: 2vw;
+}
 div.mt5{
     margin-top: 5vw;
 }
@@ -85,6 +95,9 @@ div.mt3{
 }
 div.mtminus10{
     margin-top: -10vw;
+}
+div.widthAuto{
+    width:auto;
 }
 div.width20{
     width:20%;
@@ -123,6 +136,9 @@ div.mb125{
 div.mb80{
     margin-bottom: 80px;
 }
+div.mb15{
+    margin-bottom: 15vw;
+}
 div.mlAuto{
     margin-left: auto;
 }
@@ -134,6 +150,9 @@ div.mrAuto{
 }
 div.pb40{
     padding-bottom: 40px;
+}
+div.pd20{
+    padding: 20px;
 }
 
 div.container {
@@ -179,4 +198,45 @@ div.rotate180{
 }
 div.rotate90{
     transform: rotate(90deg);
+}
+div.containerRow{
+    width: 100%; 
+    display: table;
+}
+div.contRow{
+    display:table-row;
+}
+div.contCell{
+    display:table-cell;
+}
+
+div.scrolltext {
+    height: 40vh;
+    width:60%;
+    overflow:auto;
+    /* border:2px solid black; */
+    padding:2%
+}
+div.border{
+    border:2px solid white;
+}
+div.box{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+div.time{
+    text-align: center;
+    font-family: 'fragmentMono';
+    font-size: 1vw;
+    margin-left: 60px;
+}
+div.box1{
+    width: 28vw;
+    height: 300px;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-top: 10px;
 }
